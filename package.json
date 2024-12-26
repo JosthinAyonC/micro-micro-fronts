@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "prettier --write './src/**/*.{js,ts,jsx,tsx}' && eslint . --fix",
     "format": "prettier --write './src/**/*.{js,ts,jsx,tsx}'",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start-mf": "npm run build && npm run preview"
   },
   "dependencies": {
     "@originjs/vite-plugin-federation": "^1.3.6",
